@@ -94,3 +94,4 @@ def analyze_news_with_gigachat(news_text):
 
 # Запуск бота
 bot.polling()
+print ("test")
