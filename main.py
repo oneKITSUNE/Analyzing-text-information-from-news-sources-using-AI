@@ -32,7 +32,7 @@ def handle_website(message):
         bot.send_message(message.chat.id, "Переход на Дзен: [Дзен](https://dzen.ru/)", parse_mode='Markdown')
 
 # Обработка кнопки загрузки файла
-@bot.message_handler(func=lambda message: message.text == "Хотите загрузить файл TXT?")
+@bot.message_handler(func=lambda message: message.text == "Анализ вашего файла")
 def ask_for_file(message):
     markup = types.ReplyKeyboardMarkup(one_time_keyboard=True)
     item_yes = types.KeyboardButton("Да")
@@ -94,4 +94,3 @@ def analyze_news_with_gigachat(news_text):
 
 # Запуск бота
 bot.polling()
-print ("test1")
