@@ -23,10 +23,10 @@
 
 2. **Настройка Telegram-бота**  
    - Создайте бота в Telegram с помощью [BotFather](https://core.telegram.org/bots#botfather).
-   - Получите токен вашего бота и добавьте его в переменную `API_TOKEN` в файле `bot.py`.
+   - Получите токен вашего бота и добавьте его в переменную `API_TOKEN` в файле `main.py`.
 
 3. **Настройка GigaChat**  
-   - Получите API-ключ для доступа к GigaChat и добавьте его в переменную `GIGA_CHAT_API_KEY` в файле `bot.py`.
+   - Получите API-ключ для доступа к GigaChat и добавьте его в переменную `GIGA_CHAT_API_KEY` в файле `main.py`.
 
 ## Как найти бота в Telegram?
 
