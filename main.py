@@ -3,7 +3,7 @@ from telebot import types
 import requests
 
 # Подключение бота Telegram
-API_TOKEN = '7132690600:AAFGLf6GlkklcE12lr3De7sNqejJqfKVctY'
+API_TOKEN = ''
 bot = telebot.TeleBot(API_TOKEN)
 
 # Ключ авторизации для GigaChat
